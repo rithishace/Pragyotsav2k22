@@ -197,10 +197,10 @@ var owlCarouselPlugin = function() {
 
 	$('.testimonial-slider').owlCarousel({
     center: false,
-    items: 1.4,
+    items: 2,
     loop: true,
-    stagePadding: 20,
-  	margin: 10,
+    stagePadding: 10,
+  	margin: 5,
     smartSpeed: 2000,
     autoplay: true,
     autoplayHoverPause: true,
@@ -210,12 +210,12 @@ var owlCarouselPlugin = function() {
 
     responsive:{
         400:{
-          stagePadding: 20,
-  				margin: 10,
+          stagePadding: 10,
+  				margin: 5,
         },
         600:{
-          stagePadding: 100,
-  				margin: 50,
+          stagePadding: 50,
+  				margin: 25,
         }
     }
 	});
